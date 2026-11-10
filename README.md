@@ -88,3 +88,4 @@ A base de perfis simulados para testes seguros será disponibilizada na pasta [`
 * 📄 [Anexo A e B: Ficha do Problema e Registro de Validação](docs/problema-validacao.md)
 * 📄 [Anexo C: Definição do MVP](docs/definicao-mvp.md)
 * 📄 [Anexo E: Declaração de IA e Terceiros](docs/declaracao-ia-terceiros.md)
+* 📄 [Modelagem e Backlog (Etapa 2)](docs/arquitetura-e-backlog.md)
