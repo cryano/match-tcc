@@ -88,7 +88,7 @@ Conforme o item 3 do Contrato Mínimo da Equipe (página 3 do manual do POOALAB)
 | :---: | :--- | :---: | :--- | :---: |
 | **01** | Estruturação da documentação inicial (Anexos A, B, C e E) e repositório | Alta | Ryan David | Concluído |
 | **02** | Modelagem das classes de domínio (`model`), regras (`strategy`) e motor inicial | Alta | Ryan David | Concluído |
-| **03** | Interface interativa no terminal (captura de dados via teclado e exibição de menus) | Alta | A definir (Alinhamento da equipe) | A Fazer |
+| **03** | Interface interativa no terminal (captura de dados via teclado e exibição de menus) | Alta | Pablo Franca | A Fazer |
 | **04** | Implementação da suite de testes automatizados com JUnit 5 | Média | A definir (Alinhamento da equipe) | A Fazer |
 | **05** | Preparação da base de alunos para teste e roteiro da demonstração (`demo/`) | Média | A definir (Alinhamento da equipe) | A Fazer |
 | **06** | Elaboração dos slides do Pitch em PDF (roteiro oficial de 5 minutos) | Média | A definir (Alinhamento da equipe) | A Fazer |
