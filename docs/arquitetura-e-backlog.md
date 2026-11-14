@@ -92,4 +92,4 @@ Conforme o item 3 do Contrato Mínimo da Equipe (página 3 do manual do POOALAB)
 | **04** | Implementação da suite de testes automatizados com JUnit 5 | Média | A definir (Alinhamento da equipe) | A Fazer |
 | **05** | Preparação da base de alunos para teste e roteiro da demonstração (`demo/`) | Média | A definir (Alinhamento da equipe) | A Fazer |
 | **06** | Elaboração dos slides do Pitch em PDF (roteiro oficial de 5 minutos) | Média | Luis henrique | A Fazer |
-| **07** | Gravação do vídeo de contingência e teste de execução em ambiente limpo | Baixa | A definir (Alinhamento da equipe) | A Fazer |
+| **07** | Gravação do vídeo de contingência e teste de execução em ambiente limpo | Baixa | Vinícius Scola | A Fazer |
