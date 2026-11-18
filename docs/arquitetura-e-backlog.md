@@ -90,6 +90,6 @@ Conforme o item 3 do Contrato Mínimo da Equipe (página 3 do manual do POOALAB)
 | **02** | Modelagem das classes de domínio (`model`), regras (`strategy`) e motor inicial | Alta | Ryan David | Concluído |
 | **03** | Interface interativa no terminal (captura de dados via teclado e exibição de menus) | Alta | Pablo Franca | A Fazer |
 | **04** | Implementação da suite de testes automatizados com JUnit 5 | Média | Luiz Gustavo França Barreto Silva | A Fazer |
-| **05** | Preparação da base de alunos para teste e roteiro da demonstração (`demo/`) | Média | A definir (Alinhamento da equipe) | A Fazer |
+| **05** | Preparação da base de alunos para teste e roteiro da demonstração (`demo/`) | Média | Gabriel Freitas | A Fazer |
 | **06** | Elaboração dos slides do Pitch em PDF (roteiro oficial de 5 minutos) | Média | Luis henrique | A Fazer |
 | **07** | Gravação do vídeo de contingência e teste de execução em ambiente limpo | Baixa | Vinícius Scola | A Fazer |
