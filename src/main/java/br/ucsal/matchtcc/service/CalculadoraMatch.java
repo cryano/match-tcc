@@ -11,11 +11,11 @@ import java.util.List;
 /**
  * Serviço responsável por orquestrar a execução dos critérios de compatibilidade e classificar os candidatos.
  */
-public class CalculadoraService {
+public class CalculadoraMatch {
 
     private List<CriterioMatch> criterios;
 
-    public CalculadoraService(List<CriterioMatch> criterios) {
+    public CalculadoraMatch(List<CriterioMatch> criterios) {
         this.criterios = (criterios != null) ? criterios : new ArrayList<>();
     }
 
