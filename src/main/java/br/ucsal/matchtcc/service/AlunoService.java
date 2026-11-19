@@ -8,6 +8,9 @@ public class AlunoService {
 
     private Aluno aluno;
 
+    public AlunoService() {
+    }
+
     public AlunoService(Aluno aluno) {
         this.aluno = aluno;
     }
