@@ -16,6 +16,19 @@ import java.util.List;
 
 public class Main {
 
+
+    /*
+     ============ RESPONSABILIDADE =================
+     - alterar a main para captura de dados via teclado (sem ser pré-pronto) e exibir os menus correspondentes
+     - O fluxo executa de ponta a ponta sem travar ou interromper a execução inesperadamente.
+     - O sistema valida entradas básicas (não aceita campos em branco).
+     - A ordenação é decrescente pela pontuação calculada.
+     - Para cada candidato sugerido, é exibida a justificativa da afinidade.
+     - A demonstração funciona com dados locais seguros, sem depender de internet externa.
+
+     Ver definicao-mvp.md e problema-validacao.md para mais informações acerca da responsabilidade
+     */
+
     public static void main(String[] args) {
         System.out.println("==================================================================");
         System.out.println("          MATCH TCC — SISTEMA DE FORMAÇÃO DE EQUIPES             ");
