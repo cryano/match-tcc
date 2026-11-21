@@ -1,4 +1,4 @@
-package br.ucsal.matchtcc.repository;
+package br.ucsal.matchtcc.demo.repository;
 
 import br.ucsal.matchtcc.model.Aluno;
 

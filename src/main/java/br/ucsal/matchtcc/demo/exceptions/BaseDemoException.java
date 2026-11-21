@@ -1,4 +1,4 @@
-package br.ucsal.matchtcc.exceptions;
+package br.ucsal.matchtcc.demo.exceptions;
 
 /**
  * Exceção lançada quando ocorre falha ao carregar ou interpretar a base de alunos de demonstração.

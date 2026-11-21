@@ -1,4 +1,4 @@
-package br.ucsal.matchtcc.strategy;
+package br.ucsal.matchtcc.demo.strategy;
 
 /**
  * Interface que define a família de estratégias para anonimização ou substituição
