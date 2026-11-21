@@ -1,5 +1,6 @@
 package br.ucsal.matchtcc;
 
+import br.ucsal.matchtcc.app.Application;
 import br.ucsal.matchtcc.service.AlunoService;
 import br.ucsal.matchtcc.service.CalculadoraMatch;
 import br.ucsal.matchtcc.strategy.CriterioHorario;
