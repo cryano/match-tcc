@@ -1,6 +1,7 @@
 package br.ucsal.matchtcc.service;
 
 import br.ucsal.matchtcc.model.Aluno;
+import br.ucsal.matchtcc.views.DemoView;
 
 import java.util.Objects;
 
@@ -39,9 +40,6 @@ public class AlunoService {
     }
 
     public void exibirAluno(Aluno estudanteLogado) {
-        System.out.println("------------------------------------------------------------------\n");
-        System.out.println("                       INFORMAÇÕES DO ALUNO                         ");
-        System.out.println("------------------------------------------------------------------\n");
         System.out.println("Nome: " + estudanteLogado.getNome() + " | Curso: " + estudanteLogado.getCurso() + " (" + estudanteLogado.getTurno() + ")");
         System.out.println("Tema de Interesse: " + estudanteLogado.getTemaInteresse());
         System.out.println("Disponibilidade: " + estudanteLogado.getDisponibilidade());
