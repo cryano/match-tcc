@@ -19,6 +19,7 @@ import java.util.Objects;
 public class RepositorioAlunosDemoCsv implements RepositorioAlunos {
 
     public static final Path CAMINHO_PADRAO = Path.of("demo", "alunos-demo.csv");
+    public static final Path CAMINHO_PERFIS_BUSCA_PADRAO = Path.of("demo", "perfis-busca-demo.csv");
     private static final String SEPARADOR = ",";
     private static final int TOTAL_COLUNAS = 7;
 

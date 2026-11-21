@@ -2,10 +2,18 @@ nome,curso,turno,temaInteresse,disponibilidade,papel,contato
 Estudante Demo 01,BES,Noturno,Cibersegurança,Sábados,Frontend,aluno01@example.invalid
 Estudante Demo 02,ADS,Noturno,Cibersegurança,Sábados e Noites,Backend,aluno02@example.invalid
 Estudante Demo 03,BES,Matutino,Cibersegurança,Tardes,Documentação/Metodologia,aluno03@example.invalid
-Estudante Demo 04,BES,Noturno,Inteligência Artificial,Sábados e Noites,Frontend,aluno04@example.invalid
-Estudante Demo 05,ADS,Noturno,Engenharia de Software / Web,Noites durante a semana,Documentação/Metodologia,aluno05@example.invalid
+Estudante Demo 04,ADS,Vespertino,Cibersegurança,Final de semana,QA/Testes,aluno04@example.invalid
+Estudante Demo 05,BES,Noturno,Inteligência Artificial,Sábados e Noites,Frontend,aluno05@example.invalid
 Estudante Demo 06,BES,Noturno,Inteligência Artificial,Sábados e Noites,Backend,aluno06@example.invalid
-Estudante Demo 07,ADS,Matutino,Ciência de Dados,Tardes,Análise de Dados,aluno07@example.invalid
-Estudante Demo 08,BES,Vespertino,Mobile / IoT,Final de semana,Mobile,aluno08@example.invalid
-Estudante Demo 09,ADS,Noturno,Engenharia de Software / Web,Final de semana,QA/Testes,aluno09@example.invalid
-Estudante Demo 10,BES,Matutino,Ciência de Dados,Manhãs,Backend,aluno10@example.invalid
+Estudante Demo 07,ADS,Matutino,Inteligência Artificial,Final de semana,Análise de Dados,aluno07@example.invalid
+Estudante Demo 08,BES,Matutino,Inteligência Artificial,Manhãs,Pesquisa/Dados,aluno08@example.invalid
+Estudante Demo 09,ADS,Noturno,Engenharia de Software / Web,Noites durante a semana,Backend,aluno09@example.invalid
+Estudante Demo 10,ADS,Noturno,Engenharia de Software / Web,Noites durante a semana,Documentação/Metodologia,aluno10@example.invalid
+Estudante Demo 11,BES,Noturno,Engenharia de Software / Web,Final de semana,Frontend,aluno11@example.invalid
+Estudante Demo 12,ADS,Vespertino,Engenharia de Software / Web,Tardes,Fullstack,aluno12@example.invalid
+Estudante Demo 13,ADS,Matutino,Ciência de Dados,Tardes,Análise de Dados,aluno13@example.invalid
+Estudante Demo 14,BES,Matutino,Ciência de Dados,Manhãs,Backend,aluno14@example.invalid
+Estudante Demo 15,ADS,Noturno,Ciência de Dados,Noites e Final de semana,Pesquisa/Dados,aluno15@example.invalid
+Estudante Demo 16,BES,Vespertino,Mobile / IoT,Final de semana,Mobile,aluno16@example.invalid
+Estudante Demo 17,ADS,Noturno,Mobile / IoT,Noites durante a semana,Backend,aluno17@example.invalid
+Estudante Demo 18,BES,Noturno,Mobile / IoT,Sábados,QA/Testes,aluno18@example.invalid
