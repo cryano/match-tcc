@@ -91,5 +91,5 @@ Conforme o item 3 do Contrato Mínimo da Equipe (página 3 do manual do POOALAB)
 | **03** | Interface interativa no terminal (captura de dados via teclado e exibição de menus) | Alta | Pablo Melo Franca Filho | Concluído |
 | **04** | Implementação da suite de testes automatizados com JUnit 5 e Mockito | Média | Luiz Gustavo França Barreto Silva | Concluído |
 | **05** | Preparação da base de alunos para teste e roteiro da demonstração (`demo/`) | Média | Gabriel Castro Freitas | Concluído |
-| **06** | Elaboração dos slides do Pitch em PDF (roteiro oficial de 5 minutos) | Média | Luis Henrique Lourenço | Em Progresso |
+| **06** | Elaboração dos slides do Pitch em PDF (roteiro oficial de 5 minutos) | Média | Luis Henrique Lourenço | Concluído |
 | **07** | Gravação do vídeo de contingência e teste de execução em ambiente limpo | Baixa | Vinícius Scola Santana | Em Progresso |
