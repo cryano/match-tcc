@@ -1,14 +1,23 @@
 package br.ucsal.matchtcc;
 
-import br.ucsal.matchtcc.demo.DemoApplication;
+import br.ucsal.matchtcc.app.Application;
+import br.ucsal.matchtcc.service.AlunoService;
+import br.ucsal.matchtcc.service.CalculadoraMatch;
+import br.ucsal.matchtcc.strategy.CriterioHorario;
+import br.ucsal.matchtcc.strategy.CriterioPapel;
+import br.ucsal.matchtcc.strategy.CriterioTema;
 
-/**
- * Ponto de entrada da aplicação — mantém inicialização minimalista delegada a {@link DemoApplication}.
- */
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-        DemoApplication app = new DemoApplication(); //TODO: changed later before merge to aggregate all branches
+        CalculadoraMatch calculadora = new CalculadoraMatch(Arrays.asList(new CriterioTema(), new CriterioHorario(), new CriterioPapel()));
+        AlunoService alunoService = new AlunoService();
+        Scanner scanner = new Scanner(System.in);
+
+        Application app = new Application(alunoService, calculadora, scanner);
         app.iniciar();
     }
 }
