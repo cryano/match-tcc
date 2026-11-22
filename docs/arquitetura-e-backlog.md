@@ -82,14 +82,14 @@ classDiagram
 
 ## 2. Backlog e Divisão de Tarefas
 
-Conforme o item 3 do Contrato Mínimo da Equipe (página 3 do manual do POOALAB), o desenvolvimento está organizado nas seguintes entregas. A fundação conceitual e o esqueleto inicial foram consolidados, e as frentes da Etapa 3 em diante estão em processo de distribuição entre os membros da equipe:
+Conforme o item 3 do Contrato Mínimo da Equipe (página 3 do manual do POOALAB), o desenvolvimento do MVP, da interface interativa e da suite de testes automatizados foi totalmente concluído pela equipe, restando os materiais finais de apresentação e contingência:
 
 | Item | Descrição da Tarefa | Prioridade | Responsável | Estado |
 | :---: | :--- | :---: | :--- | :---: |
 | **01** | Estruturação da documentação inicial (Anexos A, B, C e E) e repositório | Alta | Ryan David | Concluído |
 | **02** | Modelagem das classes de domínio (`model`), regras (`strategy`) e motor inicial | Alta | Ryan David | Concluído |
-| **03** | Interface interativa no terminal (captura de dados via teclado e exibição de menus) | Alta | Pablo Franca | A Fazer |
-| **04** | Implementação da suite de testes automatizados com JUnit 5 | Média | Luiz Gustavo França Barreto Silva | A Fazer |
-| **05** | Preparação da base de alunos para teste e roteiro da demonstração (`demo/`) | Média | Gabriel Freitas | A Fazer |
-| **06** | Elaboração dos slides do Pitch em PDF (roteiro oficial de 5 minutos) | Média | Luis henrique | A Fazer |
-| **07** | Gravação do vídeo de contingência e teste de execução em ambiente limpo | Baixa | Vinícius Scola | A Fazer |
+| **03** | Interface interativa no terminal (captura de dados via teclado e exibição de menus) | Alta | Pablo Melo Franca Filho | Concluído |
+| **04** | Implementação da suite de testes automatizados com JUnit 5 e Mockito | Média | Luiz Gustavo França Barreto Silva | Concluído |
+| **05** | Preparação da base de alunos para teste e roteiro da demonstração (`demo/`) | Média | Gabriel Castro Freitas | Concluído |
+| **06** | Elaboração dos slides do Pitch em PDF (roteiro oficial de 5 minutos) | Média | Luis Henrique Lourenço | Em Progresso |
+| **07** | Gravação do vídeo de contingência e teste de execução em ambiente limpo | Baixa | Vinícius Scola Santana | Em Progresso |

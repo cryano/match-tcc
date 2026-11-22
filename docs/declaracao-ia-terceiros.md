@@ -25,7 +25,8 @@ Apoio focado em formatação e cronograma. Todas as evidências do Anexo B foram
 
 | Componente ou recurso | Origem ou link | Versão e licença | Função e alterações realizadas |
 | :--- | :--- | :--- | :--- |
-| **JUnit 5 (Jupiter)** | https://junit.org/junit5/ | Versão 5.10.x — Eclipse Public License 2.0 | Framework para execução de testes automatizados. Sem alterações no código original. |
+| **JUnit 5 (Jupiter)** | https://junit.org/junit5/ | Versão 5.10.x — Eclipse Public License 2.0 | Framework para execução e asserções dos testes automatizados. Sem alterações no código original. |
+| **Mockito** | https://site.mockito.org/ | Versão 5.11.x — MIT License | Framework de simulação (mocks) para isolamento de testes unitários de serviços e views. Sem alterações. |
 
 ---
 
