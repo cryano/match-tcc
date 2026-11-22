@@ -81,7 +81,7 @@ public class MvpView implements View {
         }, "Opção de papel: ");
 
         System.out.println();
-        String contato = lerEntradaNaoVazia("Informe seu e-mail institucional de contato: ");
+        String contato = lerEmailValido("Informe seu e-mail institucional de contato: ");
 
         Aluno estudanteLogado = alunoService.cadastrarAluno(nome, curso, turno, tema, disponibilidade, papel, contato);
         alunoService.setAluno(estudanteLogado);
@@ -144,6 +144,16 @@ public class MvpView implements View {
             }
         }
         return entrada;
+    }
+
+    private String lerEmailValido(String prompt) {
+        while (true) {
+            String entrada = lerEntradaNaoVazia(prompt);
+            if (entrada.matches("^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$")) {
+                return entrada;
+            }
+            System.out.println("Formato de e-mail inválido. Informe um endereço válido (ex.: seu.nome@ucsal.edu.br).");
+        }
     }
 
     private String lerOpcao(String[] opcoes, String prompt) {

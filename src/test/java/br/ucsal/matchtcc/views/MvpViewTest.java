@@ -299,4 +299,30 @@ class MvpViewTest {
         // Assert
         assertNotNull(mvpView);
     }
+
+    @Test
+    @DisplayName("Deve solicitar novo e-mail quando o usuário informar um formato de e-mail inválido")
+    void deveSolicitarNovoEmail_QuandoUsuarioInformarFormatoInvalido() {
+        // Arrange: primeiro digita e-mail inválido sem arroba, depois e-mail válido
+        String inputSimulado = String.join("\n",
+                "Ryan David",
+                "1", "1", "1", "1", "1",
+                "email-invalido-sem-arroba", // Inválido
+                "ryan.david@ucsal.edu.br"   // Válido
+        ) + "\n";
+
+        Scanner scanner = criarScanner(inputSimulado);
+        MvpView mvpView = new MvpView(scanner);
+
+        Aluno alunoMock = new Aluno("Ryan David", "BES", "Noturno", "Cibersegurança", "Sábados e Noites", "Backend", "ryan.david@ucsal.edu.br");
+        when(alunoService.cadastrarAluno(any(), any(), any(), any(), any(), any(), eq("ryan.david@ucsal.edu.br"))).thenReturn(alunoMock);
+        when(calculadoraMatch.calcularMatches(any(), anyList())).thenReturn(Collections.emptyList());
+
+        // Act
+        mvpView.exibirTela(alunoService, calculadoraMatch);
+        String output = outputStreamCaptor.toString();
+
+        // Assert
+        assertTrue(output.contains("Formato de e-mail inválido. Informe um endereço válido (ex.: seu.nome@ucsal.edu.br)."));
+    }
 }
